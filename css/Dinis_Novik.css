@@ -1,0 +1,209 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  color: #070707;
+}
+
+nav {
+  display: flex;
+  height: 88px;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #828282;
+  align-items: center;
+  border-bottom: 1px solid #828282;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+nav > li:hover {
+  color: #070707;
+}
+
+.first_screen {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 940px;
+}
+
+.first_screen_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.first_screen_text > h1 {
+  font-size: 47.3392px;
+  line-height: 59px;
+  font-weight: 700;
+  width: 124px;
+}
+
+.first_screen_text > p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  width: 155px;
+}
+
+.first_screen__img {
+  background-image: url("/lasson_7/Img/denis_novik_portret.png");
+  width: 940px;
+  height: 387px;
+  margin-top: 50px;
+}
+
+.about_me {
+  margin: 0 auto;
+  margin-top: 104px;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.about_me > p {
+  padding-top: 120px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.about_me > pre {
+  padding-bottom: 107px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.skills {
+  margin-top: 91px;
+  text-align: center;
+  width: 940px;
+}
+
+.skills__title {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.skills__work {
+  margin-top: 69px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.skills__programs {
+  margin-top: 84px;
+  display: flex;
+  gap: 83px;
+}
+
+.skills__programs__block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 206px;
+  justify-content: space-between;
+}
+
+.skills_programs__icon {
+  width: 89px;
+  height: 88px;
+}
+
+.skills_programs__text {
+  width: 89px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills_programs__star {
+  width: 166.46px;
+  height: 26px;
+  margin-top: 2px;
+}
+
+.portfolio {
+  margin-top: 104px;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding-bottom: 96px;
+}
+
+.portfolio > p {
+  padding-top: 112px;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+.two_img_portfolio {
+  display: block;
+  height: 512px;
+  width: 940px;
+  margin-top: 47px;
+}
+
+.store_homepege_portfolio {
+  display: block;
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 42px;
+  margin-bottom: 99px;
+}
+
+.footer_title {
+  text-align: center;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-top: 114px;
+}
+
+.footer_contacts_text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-top: 23px;
+}
+
+button {
+  display: block;
+  margin-top: 29px;
+  border-radius: 50px;
+  background-color: #070707;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 13px 30px 13px 28px;
+}
+
+.footer_icons {
+  display: flex;
+  width: 342.18px;
+  justify-content: space-between;
+  margin-top: 85px;
+}
+
+.footer_final_text {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  font-weight: 400;
+  color: #828282;
+  margin-top: 46px;
+  margin-bottom: 123px;
+}
